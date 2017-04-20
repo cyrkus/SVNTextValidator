@@ -98,14 +98,6 @@ public class Validator {
         self.errorStyleTransform = error
     }
     
-    internal func register(_ formField: DAFormTextField){
-        registerField(formField.textField, rules: formField.textField.type!.validationRules)
-    }
-    
-    internal func register(_ formView: DAFormTextView) {
-        registerField(formView.textView, rules: formView.textView.type!.validationRules)
-    }
-
     /**
      This method is used to add a field to validator.
      

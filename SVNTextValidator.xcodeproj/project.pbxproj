@@ -39,6 +39,7 @@
 		A1B659561EA9440800418881 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659511EA9440800418881 /* Validator.swift */; };
 		A1B659571EA9440800418881 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659521EA9440800418881 /* Validatable.swift */; };
 		A1B659581EA9440800418881 /* ValidatorDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659531EA9440800418881 /* ValidatorDictionary.swift */; };
+		A1B6595D1EA945A600418881 /* DateConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6595C1EA945A600418881 /* DateConvertable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		A1B659511EA9440800418881 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		A1B659521EA9440800418881 /* Validatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validatable.swift; sourceTree = "<group>"; };
 		A1B659531EA9440800418881 /* ValidatorDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorDictionary.swift; sourceTree = "<group>"; };
+		A1B6595C1EA945A600418881 /* DateConvertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateConvertable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		A1B6590F1EA9439300418881 /* SVNTextValidator */ = {
 			isa = PBXGroup;
 			children = (
+				A1B6595C1EA945A600418881 /* DateConvertable.swift */,
 				A1B659591EA9440C00418881 /* Validator */,
 				A1B6594E1EA943E000418881 /* Rules */,
 				A1B659101EA9439300418881 /* SVNTextValidator.h */,
@@ -245,6 +248,7 @@
 				A1B6593B1EA943D700418881 /* FloatRule.swift in Sources */,
 				A1B659421EA943D700418881 /* MinLengthRule.swift in Sources */,
 				A1B6594D1EA943D700418881 /* ZipCodeRule.swift in Sources */,
+				A1B6595D1EA945A600418881 /* DateConvertable.swift in Sources */,
 				A1B6594C1EA943D700418881 /* ValidationRule.swift in Sources */,
 				A1B6593F1EA943D700418881 /* ISBNRule.swift in Sources */,
 				A1B659491EA943D700418881 /* Rule.swift in Sources */,
@@ -442,6 +446,7 @@
 				A1B659171EA9439300418881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
