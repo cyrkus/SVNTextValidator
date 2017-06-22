@@ -38,7 +38,7 @@ public class ConfirmationRule: Rule {
      - returns: A boolean value. True if validation is successful; False if validation fails.
      */
     public func validate(_ value: String) -> Bool {
-        return (confirmField as! UITextField).validationText == value
+        return confirmField.validationText == value
     }
     
     /**
