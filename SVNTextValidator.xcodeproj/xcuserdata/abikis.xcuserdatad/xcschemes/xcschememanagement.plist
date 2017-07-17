@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SVNTextValidatorTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>A1B6590C1EA9439300418881</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A1EE1C521F1D7DEB00BE06E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

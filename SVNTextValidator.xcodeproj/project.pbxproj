@@ -40,7 +40,51 @@
 		A1B659571EA9440800418881 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659521EA9440800418881 /* Validatable.swift */; };
 		A1B659581EA9440800418881 /* ValidatorDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659531EA9440800418881 /* ValidatorDictionary.swift */; };
 		A1B6595D1EA945A600418881 /* DateConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6595C1EA945A600418881 /* DateConvertable.swift */; };
+		A1DD684B1F1D814F004979E9 /* DateConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6595C1EA945A600418881 /* DateConvertable.swift */; };
+		A1EE1C561F1D7DEB00BE06E7 /* SVNTextValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE1C551F1D7DEB00BE06E7 /* SVNTextValidatorTests.swift */; };
+		A1EE1C581F1D7DEB00BE06E7 /* SVNTextValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B6590D1EA9439300418881 /* SVNTextValidator.framework */; };
+		A1EE1C5E1F1D7EAB00BE06E7 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659511EA9440800418881 /* Validator.swift */; };
+		A1EE1C5F1F1D7EC200BE06E7 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659501EA9440800418881 /* ValidationError.swift */; };
+		A1EE1C601F1D7EC700BE06E7 /* ValidationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6594F1EA9440800418881 /* ValidationDelegate.swift */; };
+		A1EE1C611F1D7ECA00BE06E7 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659521EA9440800418881 /* Validatable.swift */; };
+		A1EE1C621F1D7ECD00BE06E7 /* ValidatorDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659531EA9440800418881 /* ValidatorDictionary.swift */; };
+		A1EE1C7E1F1D7F9C00BE06E7 /* USStateRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6591A1EA943D700418881 /* USStateRule.swift */; };
+		A1EE1C7F1F1D7F9C00BE06E7 /* AlphaNumericRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6591B1EA943D700418881 /* AlphaNumericRule.swift */; };
+		A1EE1C801F1D7F9C00BE06E7 /* AlphaRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6591C1EA943D700418881 /* AlphaRule.swift */; };
+		A1EE1C811F1D7F9C00BE06E7 /* CharacterSetRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6591D1EA943D700418881 /* CharacterSetRule.swift */; };
+		A1EE1C821F1D7F9C00BE06E7 /* ConfirmRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6591E1EA943D700418881 /* ConfirmRule.swift */; };
+		A1EE1C831F1D7F9C00BE06E7 /* EmailRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6591F1EA943D700418881 /* EmailRule.swift */; };
+		A1EE1C841F1D7F9C00BE06E7 /* ExactLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659201EA943D700418881 /* ExactLengthRule.swift */; };
+		A1EE1C851F1D7F9C00BE06E7 /* FloatRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659211EA943D700418881 /* FloatRule.swift */; };
+		A1EE1C861F1D7F9C00BE06E7 /* FullNameRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659221EA943D700418881 /* FullNameRule.swift */; };
+		A1EE1C871F1D7F9C00BE06E7 /* HexColorRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659231EA943D700418881 /* HexColorRule.swift */; };
+		A1EE1C881F1D7F9C00BE06E7 /* IPV4Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659241EA943D700418881 /* IPV4Rule.swift */; };
+		A1EE1C891F1D7F9C00BE06E7 /* ISBNRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659251EA943D700418881 /* ISBNRule.swift */; };
+		A1EE1C8A1F1D7F9C00BE06E7 /* MinDateRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659261EA943D700418881 /* MinDateRule.swift */; };
+		A1EE1C8B1F1D7F9C00BE06E7 /* MaxLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659271EA943D700418881 /* MaxLengthRule.swift */; };
+		A1EE1C8C1F1D7F9C00BE06E7 /* MinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659281EA943D700418881 /* MinLengthRule.swift */; };
+		A1EE1C8D1F1D7F9C00BE06E7 /* PasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659291EA943D700418881 /* PasswordRule.swift */; };
+		A1EE1C8E1F1D7F9C00BE06E7 /* PaycheckRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6592A1EA943D700418881 /* PaycheckRule.swift */; };
+		A1EE1C8F1F1D7F9C00BE06E7 /* PhoneNumberRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6592B1EA943D700418881 /* PhoneNumberRule.swift */; };
+		A1EE1C901F1D7F9C00BE06E7 /* RoutingNumberRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6592C1EA943D700418881 /* RoutingNumberRule.swift */; };
+		A1EE1C911F1D7F9C00BE06E7 /* RegexRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6592D1EA943D700418881 /* RegexRule.swift */; };
+		A1EE1C921F1D7F9C00BE06E7 /* RequiredRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6592E1EA943D700418881 /* RequiredRule.swift */; };
+		A1EE1C931F1D7F9C00BE06E7 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6592F1EA943D700418881 /* Rule.swift */; };
+		A1EE1C941F1D7F9C00BE06E7 /* SSNRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659301EA943D700418881 /* SSNRule.swift */; };
+		A1EE1C951F1D7F9C00BE06E7 /* URLRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659311EA943D700418881 /* URLRule.swift */; };
+		A1EE1C961F1D7F9C00BE06E7 /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659321EA943D700418881 /* ValidationRule.swift */; };
+		A1EE1C971F1D7F9C00BE06E7 /* ZipCodeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B659331EA943D700418881 /* ZipCodeRule.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1EE1C591F1D7DEB00BE06E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B659041EA9439300418881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B6590C1EA9439300418881;
+			remoteInfo = SVNTextValidator;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A1B6590D1EA9439300418881 /* SVNTextValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVNTextValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +122,9 @@
 		A1B659521EA9440800418881 /* Validatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validatable.swift; sourceTree = "<group>"; };
 		A1B659531EA9440800418881 /* ValidatorDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorDictionary.swift; sourceTree = "<group>"; };
 		A1B6595C1EA945A600418881 /* DateConvertable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateConvertable.swift; sourceTree = "<group>"; };
+		A1EE1C531F1D7DEB00BE06E7 /* SVNTextValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVNTextValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1EE1C551F1D7DEB00BE06E7 /* SVNTextValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVNTextValidatorTests.swift; sourceTree = "<group>"; };
+		A1EE1C571F1D7DEB00BE06E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +135,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1EE1C501F1D7DEB00BE06E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EE1C581F1D7DEB00BE06E7 /* SVNTextValidator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -95,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				A1B6590F1EA9439300418881 /* SVNTextValidator */,
+				A1EE1C541F1D7DEB00BE06E7 /* SVNTextValidatorTests */,
 				A1B6590E1EA9439300418881 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				A1B6590D1EA9439300418881 /* SVNTextValidator.framework */,
+				A1EE1C531F1D7DEB00BE06E7 /* SVNTextValidatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -164,6 +221,15 @@
 			name = Validator;
 			sourceTree = "<group>";
 		};
+		A1EE1C541F1D7DEB00BE06E7 /* SVNTextValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1EE1C551F1D7DEB00BE06E7 /* SVNTextValidatorTests.swift */,
+				A1EE1C571F1D7DEB00BE06E7 /* Info.plist */,
+			);
+			path = SVNTextValidatorTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -196,12 +262,31 @@
 			productReference = A1B6590D1EA9439300418881 /* SVNTextValidator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A1EE1C521F1D7DEB00BE06E7 /* SVNTextValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1EE1C5B1F1D7DEB00BE06E7 /* Build configuration list for PBXNativeTarget "SVNTextValidatorTests" */;
+			buildPhases = (
+				A1EE1C4F1F1D7DEB00BE06E7 /* Sources */,
+				A1EE1C501F1D7DEB00BE06E7 /* Frameworks */,
+				A1EE1C511F1D7DEB00BE06E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1EE1C5A1F1D7DEB00BE06E7 /* PBXTargetDependency */,
+			);
+			name = SVNTextValidatorTests;
+			productName = SVNTextValidatorTests;
+			productReference = A1EE1C531F1D7DEB00BE06E7 /* SVNTextValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		A1B659041EA9439300418881 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = 7apps;
 				TargetAttributes = {
@@ -209,6 +294,11 @@
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = BEPPW5449K;
 						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					A1EE1C521F1D7DEB00BE06E7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8J6N66RNAY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -226,12 +316,20 @@
 			projectRoot = "";
 			targets = (
 				A1B6590C1EA9439300418881 /* SVNTextValidator */,
+				A1EE1C521F1D7DEB00BE06E7 /* SVNTextValidatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A1B6590B1EA9439300418881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1EE1C511F1D7DEB00BE06E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,7 +378,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A1EE1C4F1F1D7DEB00BE06E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1EE1C841F1D7F9C00BE06E7 /* ExactLengthRule.swift in Sources */,
+				A1EE1C951F1D7F9C00BE06E7 /* URLRule.swift in Sources */,
+				A1EE1C821F1D7F9C00BE06E7 /* ConfirmRule.swift in Sources */,
+				A1EE1C611F1D7ECA00BE06E7 /* Validatable.swift in Sources */,
+				A1EE1C921F1D7F9C00BE06E7 /* RequiredRule.swift in Sources */,
+				A1EE1C8F1F1D7F9C00BE06E7 /* PhoneNumberRule.swift in Sources */,
+				A1EE1C831F1D7F9C00BE06E7 /* EmailRule.swift in Sources */,
+				A1EE1C961F1D7F9C00BE06E7 /* ValidationRule.swift in Sources */,
+				A1EE1C8A1F1D7F9C00BE06E7 /* MinDateRule.swift in Sources */,
+				A1DD684B1F1D814F004979E9 /* DateConvertable.swift in Sources */,
+				A1EE1C861F1D7F9C00BE06E7 /* FullNameRule.swift in Sources */,
+				A1EE1C5E1F1D7EAB00BE06E7 /* Validator.swift in Sources */,
+				A1EE1C941F1D7F9C00BE06E7 /* SSNRule.swift in Sources */,
+				A1EE1C8C1F1D7F9C00BE06E7 /* MinLengthRule.swift in Sources */,
+				A1EE1C911F1D7F9C00BE06E7 /* RegexRule.swift in Sources */,
+				A1EE1C8D1F1D7F9C00BE06E7 /* PasswordRule.swift in Sources */,
+				A1EE1C801F1D7F9C00BE06E7 /* AlphaRule.swift in Sources */,
+				A1EE1C931F1D7F9C00BE06E7 /* Rule.swift in Sources */,
+				A1EE1C8E1F1D7F9C00BE06E7 /* PaycheckRule.swift in Sources */,
+				A1EE1C971F1D7F9C00BE06E7 /* ZipCodeRule.swift in Sources */,
+				A1EE1C891F1D7F9C00BE06E7 /* ISBNRule.swift in Sources */,
+				A1EE1C901F1D7F9C00BE06E7 /* RoutingNumberRule.swift in Sources */,
+				A1EE1C7F1F1D7F9C00BE06E7 /* AlphaNumericRule.swift in Sources */,
+				A1EE1C621F1D7ECD00BE06E7 /* ValidatorDictionary.swift in Sources */,
+				A1EE1C871F1D7F9C00BE06E7 /* HexColorRule.swift in Sources */,
+				A1EE1C7E1F1D7F9C00BE06E7 /* USStateRule.swift in Sources */,
+				A1EE1C811F1D7F9C00BE06E7 /* CharacterSetRule.swift in Sources */,
+				A1EE1C8B1F1D7F9C00BE06E7 /* MaxLengthRule.swift in Sources */,
+				A1EE1C881F1D7F9C00BE06E7 /* IPV4Rule.swift in Sources */,
+				A1EE1C851F1D7F9C00BE06E7 /* FloatRule.swift in Sources */,
+				A1EE1C601F1D7EC700BE06E7 /* ValidationDelegate.swift in Sources */,
+				A1EE1C561F1D7DEB00BE06E7 /* SVNTextValidatorTests.swift in Sources */,
+				A1EE1C5F1F1D7EC200BE06E7 /* ValidationError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1EE1C5A1F1D7DEB00BE06E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B6590C1EA9439300418881 /* SVNTextValidator */;
+			targetProxy = A1EE1C591F1D7DEB00BE06E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A1B659131EA9439300418881 /* Debug */ = {
@@ -427,6 +573,30 @@
 			};
 			name = Release;
 		};
+		A1EE1C5C1F1D7DEB00BE06E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8J6N66RNAY;
+				INFOPLIST_FILE = SVNTextValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7apps.SVNTextValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A1EE1C5D1F1D7DEB00BE06E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8J6N66RNAY;
+				INFOPLIST_FILE = SVNTextValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.7apps.SVNTextValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -444,6 +614,15 @@
 			buildConfigurations = (
 				A1B659161EA9439300418881 /* Debug */,
 				A1B659171EA9439300418881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1EE1C5B1F1D7DEB00BE06E7 /* Build configuration list for PBXNativeTarget "SVNTextValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1EE1C5C1F1D7DEB00BE06E7 /* Debug */,
+				A1EE1C5D1F1D7DEB00BE06E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
