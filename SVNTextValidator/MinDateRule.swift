@@ -39,7 +39,7 @@ public class MinDateRule: Rule, DateConvertable {
   public func validate(_ value: String) -> Bool {
     guard value != "" else { return false }
     let date = convertToDate(value)
-    let comparision = date.compare(minDate)
+    let comparision = date?.compare(minDate)
     if comparision == ComparisonResult.orderedAscending {
       return true
     }
