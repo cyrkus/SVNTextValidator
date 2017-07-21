@@ -10,7 +10,7 @@ import Foundation
 
 protocol DateConvertable {
     func convertToString(_ date: Date) -> String
-    func convertToDate(_ string: String) -> Date 
+    func convertToDate(_ string: String) -> Date?
 }
 
 extension DateConvertable {
@@ -30,9 +30,9 @@ extension DateConvertable {
      - parameter string: *String* to be converted
      - returns: *Date*
      */
-    func convertToDate(_ string: String) -> Date {
+    func convertToDate(_ string: String) -> Date? {
         let dateFormater = DateFormatter()
         dateFormater.dateFormat = "MM/dd/yyyy"
-        return dateFormater.date(from: string)! 
+        return dateFormater.date(from: string)
     }
 }
