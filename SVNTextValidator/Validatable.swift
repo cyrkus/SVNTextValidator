@@ -11,25 +11,7 @@ import UIKit
 public typealias ValidatableField =  AnyObject & Validatable
 
 public protocol Validatable {
-    
     var validationText: String {
         get
-    }
-    
-}
-
-extension UITextField: Validatable {
-    
-    public var validationText: String {
-        return text ?? ""
-    }
-    
-}
-
-extension UITextView: Validatable {
-    
-    public var validationText: String {
-        return text ?? ""
-    }
-    
+  }
 }
