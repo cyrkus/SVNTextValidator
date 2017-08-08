@@ -126,6 +126,7 @@ public class Validator {
   /// - returns: No return value
   public func unregisterAllFields(){
     validations.removeAll()
+    fields.removeAll()
     errors.removeAll()
   }
   
