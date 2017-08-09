@@ -104,11 +104,13 @@ public class Validator {
    - parameter field: field that is to be validated.
    - parameter errorLabel: A UILabel that holds error label data
    - parameter rules: A Rule array that holds different rules that apply to said field.
-   - returns: No return value
+   - returns: An ObjectIdentifier of the rule's field to use when looking up validations by ID
    */
-  public func registerField(_ field: ValidatableField, errorLabel:UILabel? = nil, rules:[Rule]) {
-    validations[field] = ValidationRule(field: field, rules:rules, errorLabel:errorLabel)
+  public func registerField(_ field: ValidatableField, errorLabel:UILabel? = nil, rules:[Rule]) -> ObjectIdentifier{
+    let rule = ValidationRule(field: field, rules:rules, errorLabel:errorLabel)
+    validations[field] = rule
     fields[field] = field
+    return ObjectIdentifier(rule.field)
   }
   
   /**
