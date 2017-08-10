@@ -106,11 +106,9 @@ public class Validator {
    - parameter rules: A Rule array that holds different rules that apply to said field.
    - returns: An ObjectIdentifier of the rule's field to use when looking up validations by ID
    */
-  public func registerField(_ field: ValidatableField, errorLabel:UILabel? = nil, rules:[Rule]) -> ObjectIdentifier{
-    let rule = ValidationRule(field: field, rules:rules, errorLabel:errorLabel)
-    validations[field] = rule
+  public func registerField(_ field: ValidatableField, errorLabel:UILabel? = nil, rules:[Rule]) {
+    validations[field] = ValidationRule(field: field, rules:rules, errorLabel:errorLabel)
     fields[field] = field
-    return ObjectIdentifier(rule.field)
   }
   
   /**
@@ -128,7 +126,6 @@ public class Validator {
   /// - returns: No return value
   public func unregisterAllFields(){
     validations.removeAll()
-    fields.removeAll()
     errors.removeAll()
   }
   
