@@ -27,8 +27,8 @@ public class RoutingNumberRule: Rule {
    */
   public func validate(_ value: String) -> Bool {
     var n = 0
-    guard value.characters.count == 9 else { return false }
-    for i in stride(from: 0, through: value.characters.count - 1, by: 3) {
+    guard value.count == 9 else { return false }
+    for i in stride(from: 0, through: value.count - 1, by: 3) {
       n += Int(String(value[value.index(value.startIndex, offsetBy: i + 0)]))! * 3
       n += Int(String(value[value.index(value.startIndex, offsetBy: i + 1)]))! * 7
       n += Int(String(value[value.index(value.startIndex, offsetBy: i + 2)]))! * 1
